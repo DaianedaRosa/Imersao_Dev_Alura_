@@ -1,0 +1,65 @@
+body {
+    font-family: "Roboto Mono", monospace;
+    min-height: 300px;
+    background-image: url("https://p7z2w8n8.rocketcdn.me/wp-content/uploads/2021/07/o-que-e-renda-variavel-como-funciona-e-vantagens-desse-investimento-1.jpg");
+    background-color: #000000;
+    background-size: cover;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 20px;
+    height: 100vh;
+  }
+  
+  .page-title {
+    color:black;
+    margin: 0 0 5px;
+    font:oblique
+  }
+  
+  .page-subtitle {
+    color:black;
+    margin-top: 5px;
+    font-style:initial;
+    font:200
+  }
+  
+  .page-logo {
+    width: 200px;
+  }
+  
+  .alura-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  
+  input {
+    margin: 12px;
+    padding: 6px;
+    border-radius: 5px;
+  }
+  
+  label {
+    color:black;
+    font: 300;
+  }
+  
+  button {
+    margin-top: 12px;
+    padding: 4px 8px;
+    border-radius: 10px;
+    background:bisque;
+  }
+  
+  h2 {
+    color:black;
+    font-size: 30px;
+}
+.moeda{
+  color:black;
+}
