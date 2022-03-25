@@ -1,47 +1,113 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap');
 body {
-    background-image: url('https://i.pinimg.com/originals/2c/1f/31/2c1f3178b6a8c66276d64cdaf3dbe1b1.jpg');
-    background-color: #000000;
-    background-size: cover;
-    background-repeat: no-repeat;
-    font-family: 'Oswald', sans-serif;
+  background-image: url('https://i.pinimg.com/originals/2c/1f/31/2c1f3178b6a8c66276d64cdaf3dbe1b1.jpg');
+  background-color: #000000;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: 'Oswald', sans-serif;
 }
 
 .container {
-    background: beige;
-    color: #1c1c1c;
-    margin: 80px;
-    border-radius: 25px;
-    box-shadow: 7px 7px 7px #0e1d2f;
-    padding: 70px;
+  background: white;
+  color: black;
+  margin: 80px;
+  border-radius: 25px;
+  box-shadow: 7px 7px 7px #0e1d2f;
+  padding: 70px;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
 }
 
 .perfil {
     display: flex;
-    align-items: center;
 }
 
+
 .perfil-foto {
-    border-radius: 460px;
-    max-height: 140px;
-    box-shadow: 1px 3px 3px rgba(0, 0, 0.15);
+  border-radius: 460px;
+  max-height: 140px;
+  box-shadow: 1px 3px 3px rgba(0, 0, 0.15);
 }
 
 .titulo {
-    margin-left: 16px;
+  margin-left: 16px;
 }
 
 .titulo h1 {
-    font-weight: 700;
-    font-size: 36px;
+  font-weight: 700;
+  font-size: 36px;
+  color: black
 }
 
 .titulo h3 {
-    font-weight: 400;
-    font-size: 24px;
+  font-weight: 400;
+  font-size: 24px;
+  color: black
 }
 
+.tema button {
+    align-self: flex-end;
+    font-size: 24px;
+    font-weight: 400;
+    padding: 8px 16px;
+    background: #f7f7f7;
+
+}
+
+
 .projetos {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
+  background-image: url('https://img.freepik.com/vetores-gratis/fundo-digital-de-codigo-binario-de-estilo-de-matriz-com-numeros-caindo_1017-25336.jpg');
+  margin-top: 32px;
+  padding: 32px;
+  box-shadow: 2px 2px 4px rgba(16, 16, 16, 0.42);
+  border-radius: 20px;
+}
+
+.projetos-titulo {
+  list-style: none;
+  font-weight: 700;
+  font-size: 36px;
+  color: white;
+}
+
+.projetos-item {
+  list-style-type: none;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 48px;
+  color: white;
+
+}
+
+.projetos-item a {
+  color: white;
+  text-decoration: none;
+}
+
+.dark {
+    background-image: url('https://a-static.besthdwallpaper.com/linguagem-de-codificacao-de-programacao-papel-de-parede-2880x1800-81236_8.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.dark .container {
+    background: #333439;
+    color: #f6f6f6 ;
+}
+
+.dark .projetos {
+    background-image: url('https://i.pinimg.com/originals/2c/1f/31/2c1f3178b6a8c66276d64cdaf3dbe1b1.jpg');
+}
+
+.dark .tema button {
+    background: #1c1c1c;
+    color: #ffffff;
+    border: 2px solid #f7f7f7;
+
+
 }
